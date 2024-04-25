@@ -1,8 +1,8 @@
 import pygame
 ## object klass som alla objekt ärver ifrån
 class object :
-    speed_x = 3 ## hastigheten på x-led och är statisk
-    speed_y = 3 ## hastigheten på y-led och är statisk
+    __speed_x = 3 ## hastigheten på x-led och är statisk
+    __speed_y = 3 ## hastigheten på y-led och är statisk
     def __init__(self, x, y, width, height, color):
         self.x = x
         self.y = y
